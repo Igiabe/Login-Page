@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="login.css">
+<br>
+<body>
+    <div class="container"    >
+    </div>     
+    <br>
+    <form class="form formHiden" id="linkLogin">
+        <h1 class="title" id="title">Abe's Login system</h1>
+        <div class="form_messageError"></div>
+        <div class="loginGroups">
+            <input type="text" class="forminput"
+            autofocus placeholder="username or Email">
+            <div class="errorMessage"></div>
+            <div class="loginGroups">
+                <input type="password" class="forminput"
+                autofocus placeholder="Passwrord">
+                <div class="errorMessage"></div>
+                <br>
+                <button id="submit">Login</button>
+        </div>
+        <p class="formText">
+            <a href="#" class="linkLogin">Forgot your pasword?</a>
+        </p>
+        <p class="formText">
+        </p>
+        <a  class="link" href="./" id="login" >Don't have account? create account</a>
+    </form>
+    </div>
+    <form class="form" id="createAccount">
+        <h1 class="title" id="title">create Account</h1>
+        <div class="form_messageError"></div>
+        <div class="loginGroups">
+            <input type="text" class="forminput"
+            autofocus placeholder="username">
+            <input type="text" class="forminput"
+            autofocus placeholder="Email Address">
+            <div class="errorMessage"></div>
+            <div class="loginGroups">
+                <input type="password" class="forminput"
+                autofocus placeholder="Passwrord">
+                <input type="password" class="forminput"
+                autofocus placeholder="Confirm Passwrord">
+                <div class="errorMessage"></div>
+                <br>
+                <button id="submit">Signup</button>
+        </div>
+        <p class="formText">
+            <a href="#" class="link">already have account? Login</a>
+        </p>
+        <p class="formText">
+        </p>
+        <a  class="link" href="./" id="createAccount" >Don't have an account? create account</a>
+    </form>
+    </div>
+    
+</body>
+<script src="login.js"></script>
+</html>
